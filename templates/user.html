@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <form action="{{url_for('addrec')}}" method="POST">
+            <h3>Student Information</h3>
+            ID<br>
+            <input type="number" name="id"/><br>
+            First name<br>
+            <input type="text" name="fnm" required/><br>
+            Last name<br>
+            <input type="text" name="lnm"/><br>
+            Age<br>
+            <input type="number" name="age"/><br>
+            Gender<br>
+            <input type="text" name="gen"/><br>
+            Email<br>
+            <input type="text" name="eml"/><br>
+            Phone Number<br>
+            <input type="number" name="pn"/><br>
+            Birth date<br>
+            <input type="date" name="dob"/><br>
+            <input type="submit" value="submit"><br>
+        </form>
+    </body>
+</html>
